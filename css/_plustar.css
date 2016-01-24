@@ -1,0 +1,61 @@
+$navHeight: 40px;
+
+.ps-app {
+    background: #f0f0f0;
+
+    .nav-tab {
+        padding: 10px 0;
+        background-color: #fff;
+        height: $navHeight;
+
+        li {
+            box-sizing: border-box;
+            float: left;
+            width: 50%;
+            height: $navHeight;
+            line-height: $navHeight;
+            text-align: center;
+            color: #ccc;
+            font-size: 16px;
+
+            &.focus {
+                color: #000;
+            }
+
+            &:first-child {
+                border-right: 1px solid #ccc;
+            }
+        }
+    }
+
+    .ps-row {
+        margin-bottom: 20px;
+
+        a {
+            display: block;
+            height: 200px;
+
+            img {
+                display: block;
+                border: none;
+                max-width: 100%;
+            }
+        }
+
+        .deps {
+            height: 26px;
+            line-height: 26px;
+            padding-left: 5px;
+            font-size: 14px;
+            background: #fff;
+            max-width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

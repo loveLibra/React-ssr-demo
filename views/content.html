@@ -1,0 +1,11 @@
+{{> header}}
+    <div id="yoho-container">{{{content}}}</div>
+    <script src="bundle.js"></script>
+    {{#if plustar}}
+        <script>
+            window.YohoDispatcher(YohoModule.PLUSTAR);
+        </script>
+    {{/if}}
+{{> footer}}
+
+
