@@ -1,5 +1,5 @@
 {
-  "name": "react ssr demo",
+  "name": "react-ssr-demo",
   "version": "1.0.0",
   "description": "react server side render demo with koa/browserify/postcss",
   "main": "app.js",
